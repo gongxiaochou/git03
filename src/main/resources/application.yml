@@ -8,4 +8,4 @@ eureka:
     fetch-registry: false          #指定当前主机是否需要获取注册信息(不用,因为当前主机就是Server，不是Client)
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
-      #defaultZone: http://127.0.0.1:8000/eureka
+      #defaultZone: http://127.0.0.1:8000/eureka  
